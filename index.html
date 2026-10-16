@@ -9,7 +9,7 @@
 <body>
 <main>
   <h1>MotoEstradaAW Publisher</h1>
-  <p class="sub">Schedule and publish your own short videos to your own TikTok account.</p>
+  <p class="sub">Schedule and publish your own short videos to your own TikTok account and YouTube channel.</p>
 
   <h2>What it does</h2>
   <p>MotoEstradaAW Publisher is a desktop tool used by motorcycle-travel creators to plan their short-video calendar.
@@ -31,6 +31,21 @@
     <li><code>video.publish</code> — to publish the videos the creator selected, with the settings the creator chose.</li>
   </ul>
 
+  <h2>YouTube</h2>
+  <p>The same tool uploads the creator's own videos to the creator's own YouTube channel, using <strong>YouTube API Services</strong>
+     (YouTube Data API v3). After the creator connects the channel with Google Sign-In (OAuth 2.0), they can, for each video:</p>
+  <ul>
+    <li>see the YouTube channel the video will be uploaded to (channel name and handle);</li>
+    <li>edit the title, description and tags;</li>
+    <li>choose the privacy (public, unlisted or private) and disclose altered or synthetic content;</li>
+    <li>upload now, or schedule it together with the other platforms, and follow the upload status and the link to the video.</li>
+  </ul>
+  <p>Scopes used: <code>youtube.upload</code> (upload the videos the creator selected) and <code>youtube.readonly</code>
+     (show which channel is connected). The creator can disconnect at any time in the tool, which deletes the stored tokens,
+     or revoke access in <a href="https://security.google.com/settings/security/permissions">Google security settings</a>.
+     By using the YouTube features you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>;
+     see also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
   <h2>Links</h2>
   <ul>
     <li><a href="privacy.html">Privacy Policy</a> · <a href="privacy.html#pt">Política de Privacidade</a></li>
@@ -38,6 +53,6 @@
     <li>Contact: <a href="mailto:andersonfaltoe@gmail.com">andersonfaltoe@gmail.com</a></li>
   </ul>
 </main>
-<footer>MotoEstradaAW · Brazil · Not affiliated with or endorsed by TikTok.</footer>
+<footer>MotoEstradaAW · Brazil · Not affiliated with or endorsed by TikTok, YouTube or Google.</footer>
 </body>
 </html>
